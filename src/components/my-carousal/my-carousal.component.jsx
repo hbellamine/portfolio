@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Slide1 from "../../assets/img/carousal/Me2.jpeg";
 import Slide2 from "../../assets/img/carousal/Me3.jpeg";
-import Slide3 from "../../assets/img/carousal/slide3.webp";
+import Slide3 from "../../assets/img/carousal/Me4.jpeg";
 import ScrollDown from "../scroll-down/scroll-down.component";
 import "./my-carousal.styles.css";
 
