@@ -1,6 +1,6 @@
 {
-  "name": "reactfoliobs4_akj",
-  "homepage": "https://github.com/hbellamine",
+  "name": "hb-portfolio",
+  "homepage": "hb-portfolio.netlify.app",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
