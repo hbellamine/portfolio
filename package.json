@@ -1,6 +1,5 @@
 {
   "name": "hb-portfolio",
-  "homepage": "hb-portfolio.netlify.app",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
