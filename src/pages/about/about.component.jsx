@@ -7,7 +7,7 @@ import Profile from "../../assets/img/profile/me.jpg";
 import Profile2 from "../../assets/img/profile/me2.jpeg";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
-import ReactWhatsapp from 'react-whatsapp';
+
 
 const About = () => {
 

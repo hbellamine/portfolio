@@ -19,7 +19,6 @@ import L_REACT from "../../assets/img/skills/react.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_FIREBASE from "../../assets/img/skills/firebase.png";
 import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
-import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import L_CLOUDINARY from "../../assets/img/skills/cloudinary.png";
 import Image from "react-bootstrap/Image";
 import L_REDUX from "../../assets/img/skills/redux.svg";
@@ -34,7 +33,6 @@ import L_ZAPIER from "../../assets/img/skills/zapier.png";
 import L_HEROKU from "../../assets/img/skills/heroku.png";
 import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
-import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 
 
 import "./projects-timeline.styles.css";
