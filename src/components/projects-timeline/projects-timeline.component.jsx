@@ -4,12 +4,13 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 // projects
 import L_LEWAGON from "../../assets/img/projects/LeWagon.jpg";
 import L_SWIRTATE from "../../assets/img/projects/Swirtate.png";
+import L_ECRSAPP from "../../assets/img/projects/ECRSAPP.jpeg";
+import L_SQUADFACTORY from "../../assets/img/projects/SquadFactory.png";
 import L_LIVESALES from "../../assets/img/projects/livesales.png";
 import L_PATIENTMANAGER from "../../assets/img/projects/patients.png";
 import L_QWIZARD from "../../assets/img/projects/qwizard.png";
-import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
-import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
-import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
+import L_OPEXAPP from "../../assets/img/projects/Opexapp.jpg";
+
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -22,16 +23,15 @@ import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import L_CLOUDINARY from "../../assets/img/skills/cloudinary.png";
 import Image from "react-bootstrap/Image";
 import L_REDUX from "../../assets/img/skills/redux.svg";
+import L_NATIVE from "../../assets/img/skills/native.png";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
 import L_WOOCOMMERCE from "../../assets/img/skills/woocommerce.png";
 import L_WORDPRESS from "../../assets/img/skills/wordpress.png";
 import L_GRAVITY from "../../assets/img/skills/gravityforms.png";
 import L_ZAPIER from "../../assets/img/skills/zapier.png";
 import L_HEROKU from "../../assets/img/skills/heroku.png";
-import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
 
 
@@ -528,9 +528,9 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
           <ImageEvent
             date="05/08/2020"
             className="text-center"
-            text="ECRS APP"
-            src={L_ProductHuntClone}
-            alt="ECRS APP"
+            text="Tasks productivity measurement"
+            src={L_ECRSAPP}
+            alt="Tasks productivity measurement"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -546,17 +546,18 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This website is a clone of
-                        Product Hunt built using Django.
+                        <strong>Description:</strong> Mobile / Web App that allows the measurement of each task done by a operator in order to insure a better coordination and optimize the overall leadtime of the coordinated action
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Register as new user</li>
                           <li>Signin as existing user</li>
-                          <li>Raise a Product for people to see and Vote</li>
-                          <li>Delete a product</li>
-                          <li>Like and Dislike a product</li>
-                          <li>Fully funtional Administration panel</li>
+                          <li>Create a new session of coordinated action</li>
+                          <li>Put the operators name</li>
+                          <li>Time each task the operator is doing and add a comment</li>
+                          <li>Join the session to measure another operator tasks</li>
+                          <li>Create a gantt chart of the coordinated action session using the session number</li>
+                          <li>Simulate different optimisation scenarios and check visually on the 'after gantt' the overall leadtime reduction </li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -564,56 +565,56 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
+                                src={L_REACT}
+                                alt="React"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              HTML5
+                              REACT
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
+                                src={L_REDUX}
+                                alt="Redux"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              CSS3
+                              Redux
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_BOOTSTRAP4}
+                                src={L_NATIVE}
                                 alt="Bootstrap 4"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Bootstrap 4
+                             React Native
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_DJANGO}
+                                src={L_NODE_JS}
                                 alt="Django"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Django
+                              Node.js
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_POSTGRESQL}
-                                alt="PostgreSQL"
+                                src={L_FIREBASE}
+                                alt="Firebase"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              PostgreSQL
+                              Firebase
                             </span>
                           </li>
                         </ul>
@@ -624,7 +625,7 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/akjha96/product_hunt_clone"
+                  href="https://github.com/hbellamine/ECRSAPP"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -748,13 +749,13 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
             </div>
           </ImageEvent>
 
-          {/* Project: SquadFactory APP */}
+          {/* Project: SquadFactory */}
 
           <ImageEvent
-            date="14/01/2020"
+            date="25/09/2020"
             className="text-center"
             text="SquadFactory"
-            src={L_RoboFriends}
+            src={L_SQUADFACTORY}
             alt="SquadFactory"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -771,14 +772,23 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that allows to
-                        search through robots fetched in real-time with users.
+                        <strong>Description:</strong> Squadfactory is a web application that allows employees to suggest projects or ideas to improve their companies performance, it also helps in managing continuous improvement projects.
+
+By suggesting a project/idea or by participating in a continuous improvement project, the employee get a certain amount of points.
+
+Each employee has a wallet of points that can be used to order gifts through the web app.
+A ranking is also available based on the number of points earned. It shows the employees commitment to continuous improvement.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Search through Robots</li>
-                          <li>Users and Robots being fetched via API call</li>
-                          <li>Usage of Redux store</li>
+                          <li>Login as a employee</li>
+                          <li>Login as a Manager</li>
+                          <li>Suggest a project/improvement idea</li>
+                          <li>Check the points of the employee account</li>
+                          <li>Manager access :Accept/Refuse ( with a justification) the improvement idea and dispatch automatically the right amount of points to the employee</li>
+                          <li>Manager access :Configure the gifts related to a certain amount of points</li>
+                          <li>Manager access :Check the ranking of the most comitted employees</li>
+                          <li>Employee access : Order a gift through the platform using the points account</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -786,59 +796,46 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Bootstrap 4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
                                 src={L_REACT}
-                                alt="React"
+                                alt="REACT"
                                 rounded
-                                className="image-style1 m-1"
+                                className="image-style m-1"
                               ></Image>{" "}
-                              React
+                              REACT
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
                                 src={L_REDUX}
-                                alt="Redux"
+                                alt="CSS 3"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Redux
+                              REDUX
                             </span>
                           </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_FIREBASE}
+                                alt="Bootstrap 4"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>
+                         
                         </ul>
+
+                        <em>
+                          <strong> Signin:</strong>
+                          <br />
+                          <br />
+                          You can <strong>use the credentials</strong>: 
+                          Id: user / Password: adminadmin
+                        </em>
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
@@ -846,17 +843,12 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://akjha96.github.io/RoboFriends/"
+                  href="https://app.squadfactory.com/test"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/RoboFriends"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
+                
               </div>
             </div>
           </ImageEvent>
@@ -864,10 +856,10 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
 
           {/* Project: Opex App */}
           <ImageEvent
-            date="10/09/2020"
+            date="10/11/2020"
             className="text-center"
             text="OPEX App"
-            src={L_PortfolioUsingDjango}
+            src={L_OPEXAPP}
             alt="OPEX App"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -884,18 +876,19 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is my first portfolio
-                        website built using Django.
+                        <strong>Description:</strong> Tablet App - Web App : Live Tracking of the production lines yields.
+                          SMS escalation alerts in case of machine breakdown
+                          Breakdown analysis and Overall Equipement Efficiency live reporting
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Send emails</li>
-                          <li>View my projects</li>
-                          <li>Write a blog</li>
+                          <li>Operator declare a breakdown through the tablet </li>
+                          <li>SMS automatically sent to the technicians after 20 minutes of breakdown</li>
+                          <li>SMS Escalation after 40 minutes of breakdown to the maintenance manager</li>
                           <li>
-                            Hosted using Digital ocean under www.akjfun.com
+                            Managers are able to check Overall equipement Efficiency of the production through a web app
                           </li>
-                          <li>Fully funtional Administration panel</li>
+                          <li>BreakDown analysis on the Web app ( Pareto Diagram and OEE follow up )</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -903,93 +896,66 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_HTML5}
+                                src={L_REACT}
                                 alt="HTML 5"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              HTML5
+                              REACT
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_CSS3}
+                                src={L_NODE_JS}
                                 alt="CSS 3"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              CSS3
+                              Node.js
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_BOOTSTRAP4}
+                                src={L_NATIVE}
                                 alt="Bootstrap 4"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Bootstrap 4
+                              React Native
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_DJANGO}
+                                src={L_FIREBASE}
                                 alt="Django"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Django
+                              Firebase
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_POSTGRESQL}
+                                src={L_REDUX}
                                 alt="PostgreSQL"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              PostgreSQL
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_DIGITAL_OCEAN}
-                                alt="Digital Ocean"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Digital-Ocean
+                              Redux
                             </span>
                           </li>
                         </ul>
                         <hr />
-                        <em>
-                          <strong>View Demo Video:</strong>
-                          <br />
-                          <br />
-                          If you are reading this, that means I have updated my
-                          Portfolio website to recent one.
-                          <br />
-                          You can still see a video of my old portfolio by
-                          clicking on the button below.
-                          <br />
-                          <br />
-                        </em>
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
                 </Accordion>
               </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://youtu.be/PCwEuW4OmWA" target="_blank">
-                  WATCH VIDEO
-                </UrlButton>
-              </div>
+
             </div>
           </ImageEvent>
         </Events>
