@@ -51,13 +51,21 @@ const App = () => {
           <Skills />
         </Slide>
       </Container>
-
-      <Container className="container-box rounded">
-        <Slide bottom duration={500}>
-          <hr />
-          <TimeLine />
-        </Slide>
-      </Container>
+      <Parallax
+          blur={{ min: -30, max: 30 }}
+          bgImage={require("./assets/img/parallex/background.webp")}
+          bgImageAlt=""
+          strength={-200}
+        >
+          <div>
+          <Container className="container-box rounded">
+            <Slide bottom duration={500}>
+              <hr />
+              <TimeLine />
+            </Slide>
+          </Container>
+          </div>
+        </Parallax>
       <Container className="container-box rounded">
         <Fade duration={500}>
           <hr />
