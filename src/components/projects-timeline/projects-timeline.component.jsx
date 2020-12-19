@@ -140,7 +140,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="www.swirtate.com"
+                  href="http://www.swirtate.com"
                   target="_blank"
                 >
                   SEE LIVE
@@ -274,12 +274,7 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="www.swirtate.com"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
+
                 
               </div>
             </div>
@@ -507,7 +502,7 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="cabinetgestion.herokuapp.com"
+                  href="http://cabinetgestion.herokuapp.com"
                   target="_blank"
                 >
                   SEE LIVE
