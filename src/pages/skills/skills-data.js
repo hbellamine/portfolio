@@ -9,6 +9,7 @@ import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
+import L_TYPESCRIPT from "../../assets/img/skills/typescript.png";
 
 import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 
@@ -42,6 +43,12 @@ export const skills = {
       imgAltText: "JavaScript",
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
+    },
+    {
+      link: "https://www.typescriptlang.org/",
+      imgAltText: "TypeScript",
+      imgSrc: L_TYPESCRIPT,
+      skillName: "TypeScript",
     },
     {
       link: "https://sass-lang.com/",
