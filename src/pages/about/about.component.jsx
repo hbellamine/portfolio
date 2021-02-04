@@ -3,8 +3,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.styles.css";
-import Profile from "../../assets/img/profile/me.jpg";
-import Profile2 from "../../assets/img/profile/me2.jpeg";
+import Profile from "../../assets/img/profile/me.png";
+
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 
@@ -22,18 +22,14 @@ const About = () => {
               <Row className="justify-content-center mb-2 mr-2 ">
                 <Image className="profile justify-content-end"
                    alt="profile" 
-                   src={img}
-                   onMouseOver={() => {setImg(Profile2)}}
-                   onMouseOut={() => {setImg(Profile)}}
-                   
-                   
+                   src={img}                   
                    thumbnail fluid />
               </Row>
             </Col>
             <Col xs={12} md={6}>
               <Row
-              onMouseOver={() => {setImg(Profile2)}}
-              onMouseOut={() => {setImg(Profile)}}
+      
+
               className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Hamza Bellamine</strong>
                 <br />Experienced Consultant with successful experiences in empowering organizations and their teams through operational excellence and digitalization.
