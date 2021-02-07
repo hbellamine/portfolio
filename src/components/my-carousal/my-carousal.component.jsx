@@ -5,7 +5,7 @@ import "./my-carousal.styles.css";
 const MyCarousal = () => {
   return (
     <div id="home">
-      <img style={{filter:'brightness(70%)'}} src={Slide3} alt="cover" />
+      <img style={{ width:'100%', filter:'brightness(70%)'}} src={Slide3} alt="cover" />
     </div>
   );
 };
