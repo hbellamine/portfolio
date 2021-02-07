@@ -1,9 +1,9 @@
-import React,{useState} from "react";
+import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.styles.css";
-import Profile from "../../assets/img/profile/me.png";
+import img from "../../assets/img/profile/me.png";
 
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
@@ -11,7 +11,6 @@ import Button from "react-bootstrap/Button";
 
 const About = () => {
 
-  const [img, setImg] = useState(Profile)
   return (
     <div id="about">
       <div className="about">
