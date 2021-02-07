@@ -31,15 +31,14 @@ const About = () => {
 
               className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Hamza Bellamine</strong>
-                <br />Experienced Consultant with successful experiences in empowering organizations and their teams through operational excellence and digitalization.
+                <br />A passionate full stack developer and a team player.
                 <br />
                 <br />
                 In 2007, I successfully completed my Technical Diploma with specialization in 'Electrical Engineering and Computer Science' and in 2010 i have got my Masters degree with specialization in 'Industrial Engineering'
                 <br />
               
                 <br />
-                Since then, i helped many companies such as L'Oréal, Unilever and The Coca-Cola Company to make them agile and generate great costs and time savings that are being re-invested into more value added activities
-                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                Since then, i developed many saas projects in the manufacturing field but also some sides projects related to my hobbies 
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
