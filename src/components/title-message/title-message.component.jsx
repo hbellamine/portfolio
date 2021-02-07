@@ -5,27 +5,27 @@ import styled from "styled-components";
 const MyTitleMessage = styled.h1`
   position: absolute;
   width: 100%;
-  top: 22rem;
+  top: 5rem;
   z-index: 1;
-  margin-top: -125px;
+  //margin-top: -125px;
   text-align: center;
 
   strong {
-    font-size: 1.25em;
+    font-size: 60%;
   }
   div {
     color: ${props => props.theme.textColor};
 
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
-    letter-spacing: 7px;
+    letter-spacing: 3px;
 
     .main {
-      font-size: 50px;
+      font-size: 30px;
     }
 
     .sub {
-      font-size: 27px;
+      font-size: 40%;
       letter-spacing: 2px;
     }
   }
@@ -35,13 +35,13 @@ const TitleMessage = () => (
   <MyTitleMessage>
     <div className="titleMessage">
       <div className="heading">
-        <div className="main text-center mb-3">
+        {/* <div className="main text-center mb-3">
           Hi, I am
           <br />
           <span>
             <strong>Hamza Bellamine</strong>
           </span>
-        </div>
+        </div> */}
         <div className="sub">
           <Typewriter
             options={{

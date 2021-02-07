@@ -11,9 +11,6 @@ import Slide from "react-reveal/Slide";
 import ContactForm from "./pages/contact-form/contact-form.component";
 import { Parallax } from "react-parallax";
 
-
-// import Particles from "react-particles-js";
-// import { particlesOptions } from "./particlesOptions";
 import FooterPanel from "./components/footer/footer.component";
 
 import "./App.css";
@@ -22,12 +19,8 @@ const App = () => {
   return (
     <div className="App" style={{ position: "relative" }}>
       <MyCarousal />
-      <MyTitleMessage />
       <MyNavbar />
-      {/* <Particles
-        className="particles particles-box"
-        params={particlesOptions}
-      /> */}
+
 
       <div>
         <Parallax
