@@ -10,6 +10,7 @@ import L_LIVESALES from "../../assets/img/projects/livesales.png";
 import L_PATIENTMANAGER from "../../assets/img/projects/patients.png";
 import L_QWIZARD from "../../assets/img/projects/qwizard.png";
 import L_OPEXAPP from "../../assets/img/projects/Opexapp.jpg";
+import L_ECOM from "../../assets/img/projects/ecommerce.png";
 
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -33,7 +34,7 @@ import L_GRAVITY from "../../assets/img/skills/gravityforms.png";
 import L_ZAPIER from "../../assets/img/skills/zapier.png";
 import L_HEROKU from "../../assets/img/skills/heroku.png";
 import L_GIT from "../../assets/img/skills/github-api.svg";
-
+import L_STRIPE from "../../assets/img/skills/stripe.png";
 
 import "./projects-timeline.styles.css";
 
@@ -43,8 +44,8 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
-        {/* Project: Swirtate */}
-        <ImageEvent
+          {/* Project: Swirtate */}
+          <ImageEvent
             date="10/04/2014"
             className="text-center"
             text="Swirtate.com - Promotional gifts company"
@@ -65,13 +66,19 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> A website for a leading startup in Morocco that provides promotional gifts
+                        <strong>Description:</strong> A website for a leading
+                        startup in Morocco that provides promotional gifts
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Get in touch with the company through whatsapp</li>
+                          <li>
+                            Get in touch with the company through whatsapp
+                          </li>
                           <li>Request for a cotation</li>
-                          <li>Hability to send invoices through the platform and add to a google sheet using zapier</li>
+                          <li>
+                            Hability to send invoices through the platform and
+                            add to a google sheet using zapier
+                          </li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -131,7 +138,6 @@ const TimeLine = () => {
                               Woocommerce
                             </span>
                           </li>
-                          
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -139,19 +145,15 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="http://www.swirtate.com"
-                  target="_blank"
-                >
+                <UrlButton href="http://www.swirtate.com" target="_blank">
                   SEE LIVE
                 </UrlButton>
-                
               </div>
             </div>
           </ImageEvent>
 
-        {/* Project: Le Wagon Full Stack Bootcamp */}
-        <ImageEvent
+          {/* Project: Le Wagon Full Stack Bootcamp */}
+          <ImageEvent
             date="13/03/2020"
             className="text-center"
             text="LeWagon Full-Stack Web Developer Bootcamp - Lisbon"
@@ -172,20 +174,28 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> 9-week intensive coding bootcamp 
+                        <strong>Description:</strong> 9-week intensive coding
+                        bootcamp
                         <hr />
                         <strong>What i learned : </strong>
                         <ul className="list-styles pt-1">
-                          <li>HTML, CSS, Bootstrap, JavaScript ES2015,
-SQL, git, GitHub, Heroku and Ruby on Rails.</li>
-                         
-                          <li>Designed, implemented and shipped to
-production a clone of AirBnB and a Rails prototype called mylivesales.com that allows anyone to create a virtual store, create a livecast to showcase its products and start selling right away.</li>
+                          <li>
+                            HTML, CSS, Bootstrap, JavaScript ES2015, SQL, git,
+                            GitHub, Heroku and Ruby on Rails.
+                          </li>
+
+                          <li>
+                            Designed, implemented and shipped to production a
+                            clone of AirBnB and a Rails prototype called
+                            mylivesales.com that allows anyone to create a
+                            virtual store, create a livecast to showcase its
+                            products and start selling right away.
+                          </li>
                         </ul>
                         <hr />
                         <strong>Tech learned:</strong>
                         <ul>
-                        <li>
+                          <li>
                             <span className="p-2">
                               <Image
                                 src={L_RAILS}
@@ -266,20 +276,15 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
                               GitHub
                             </span>
                           </li>
-                          
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
                 </Accordion>
               </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-
-                
-              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center"></div>
             </div>
           </ImageEvent>
-
 
           {/* Project: My Live Sales */}
           <ImageEvent
@@ -303,7 +308,8 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> My Live Sales is a live streaming marketplace 
+                        <strong>Description:</strong> My Live Sales is a live
+                        streaming marketplace
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -313,7 +319,9 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
                           <li>Create your store as a seller</li>
                           <li>Customer can ask live questions through chat</li>
                           <li>Seller can stream a live sale</li>
-                          <li>Seller can track the live amount of sales he made </li>
+                          <li>
+                            Seller can track the live amount of sales he made{" "}
+                          </li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -340,7 +348,7 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
                               Node.js
                             </span>
                           </li>
-                         
+
                           <li>
                             <span className="p-2">
                               <Image
@@ -364,16 +372,15 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
                               HerokuAPP
                             </span>
                           </li>
-
                         </ul>
                         <em>
                           <strong>SignUp/ Signin:</strong>
                           <br />
                           <br />
-                          You can <strong>sign in</strong> with facebook and create your store as a seller  
+                          You can <strong>sign in</strong> with facebook and
+                          create your store as a seller
                         </em>
                       </Card.Body>
-
                     </Accordion.Collapse>
                   </Card>
                 </Accordion>
@@ -417,15 +424,24 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> A Web App that allows doctors to follow their patients and write a report for each consultation
+                        <strong>Description:</strong> A Web App that allows
+                        doctors to follow their patients and write a report for
+                        each consultation
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Create a doctor profile</li>
                           <li>Create - Read - Update - Delete a patient</li>
-                          <li>Search for a patient by -ID Card / Name / Surname</li>
-                          <li>Upload pictures and add them to the patient folder</li>
-                          <li>Write a prescription using a pre-set database of medicines</li>
+                          <li>
+                            Search for a patient by -ID Card / Name / Surname
+                          </li>
+                          <li>
+                            Upload pictures and add them to the patient folder
+                          </li>
+                          <li>
+                            Write a prescription using a pre-set database of
+                            medicines
+                          </li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -487,13 +503,12 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
                               Cloudinary
                             </span>
                           </li>
-                         
                         </ul>
                         <em>
                           <strong>SignUp/ Signin:</strong>
                           <br />
                           <br />
-                          You can <strong>register</strong> as new doctor 
+                          You can <strong>register</strong> as new doctor
                         </em>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -513,7 +528,6 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
                 >
                   SOURCE CODE
                 </UrlButton>
-
               </div>
             </div>
           </ImageEvent>
@@ -541,7 +555,10 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Mobile / Web App that allows the measurement of each task done by a operator in order to insure a better coordination and optimize the overall leadtime of the coordinated action
+                        <strong>Description:</strong> Mobile / Web App that
+                        allows the measurement of each task done by a operator
+                        in order to insure a better coordination and optimize
+                        the overall leadtime of the coordinated action
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -549,10 +566,22 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
                           <li>Signin as existing user</li>
                           <li>Create a new session of coordinated action</li>
                           <li>Put the operators name</li>
-                          <li>Time each task the operator is doing and add a comment</li>
-                          <li>Join the session to measure another operator tasks</li>
-                          <li>Create a gantt chart of the coordinated action session using the session number</li>
-                          <li>Simulate different optimisation scenarios and check visually on the 'after gantt' the overall leadtime reduction </li>
+                          <li>
+                            Time each task the operator is doing and add a
+                            comment
+                          </li>
+                          <li>
+                            Join the session to measure another operator tasks
+                          </li>
+                          <li>
+                            Create a gantt chart of the coordinated action
+                            session using the session number
+                          </li>
+                          <li>
+                            Simulate different optimisation scenarios and check
+                            visually on the 'after gantt' the overall leadtime
+                            reduction{" "}
+                          </li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -587,7 +616,7 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                             React Native
+                              React Native
                             </span>
                           </li>
                           <li>
@@ -629,7 +658,6 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
             </div>
           </ImageEvent>
 
-
           {/* Project: Qwizard */}
           <ImageEvent
             date="21/08/2020"
@@ -652,8 +680,9 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> A Web app for Book Lovers. 
-                        It allows the book lovers to create a quizz or pass a quizz of their favorites books
+                        <strong>Description:</strong> A Web app for Book Lovers.
+                        It allows the book lovers to create a quizz or pass a
+                        quizz of their favorites books
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -719,7 +748,7 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
                           <strong>SignUp/ Signin:</strong>
                           <br />
                           <br />
-                          You can <strong>register</strong> as new user 
+                          You can <strong>register</strong> as new user
                         </em>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -727,10 +756,7 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="http://qwizard.netlify.app/"
-                  target="_blank"
-                >
+                <UrlButton href="http://qwizard.netlify.app/" target="_blank">
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
@@ -739,7 +765,6 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
                 >
                   SOURCE CODE
                 </UrlButton>
-               
               </div>
             </div>
           </ImageEvent>
@@ -767,12 +792,17 @@ production a clone of AirBnB and a Rails prototype called mylivesales.com that a
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Squadfactory is a web application that allows employees to suggest projects or ideas to improve their companies performance, it also helps in managing continuous improvement projects.
-
-By suggesting a project/idea or by participating in a continuous improvement project, the employee get a certain amount of points.
-
-Each employee has a wallet of points that can be used to order gifts through the web app.
-A ranking is also available based on the number of points earned. It shows the employees commitment to continuous improvement.
+                        <strong>Description:</strong> Squadfactory is a web
+                        application that allows employees to suggest projects or
+                        ideas to improve their companies performance, it also
+                        helps in managing continuous improvement projects. By
+                        suggesting a project/idea or by participating in a
+                        continuous improvement project, the employee get a
+                        certain amount of points. Each employee has a wallet of
+                        points that can be used to order gifts through the web
+                        app. A ranking is also available based on the number of
+                        points earned. It shows the employees commitment to
+                        continuous improvement.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -780,10 +810,24 @@ A ranking is also available based on the number of points earned. It shows the e
                           <li>Login as a Manager</li>
                           <li>Suggest a project/improvement idea</li>
                           <li>Check the points of the employee account</li>
-                          <li>Manager access :Accept/Refuse ( with a justification) the improvement idea and dispatch automatically the right amount of points to the employee</li>
-                          <li>Manager access :Configure the gifts related to a certain amount of points</li>
-                          <li>Manager access :Check the ranking of the most comitted employees</li>
-                          <li>Employee access : Order a gift through the platform using the points account</li>
+                          <li>
+                            Manager access :Accept/Refuse ( with a
+                            justification) the improvement idea and dispatch
+                            automatically the right amount of points to the
+                            employee
+                          </li>
+                          <li>
+                            Manager access :Configure the gifts related to a
+                            certain amount of points
+                          </li>
+                          <li>
+                            Manager access :Check the ranking of the most
+                            comitted employees
+                          </li>
+                          <li>
+                            Employee access : Order a gift through the platform
+                            using the points account
+                          </li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -821,15 +865,13 @@ A ranking is also available based on the number of points earned. It shows the e
                               Firebase
                             </span>
                           </li>
-                         
                         </ul>
-
                         <em>
                           <strong> Signin:</strong>
                           <br />
                           <br />
-                          You can <strong>use the credentials</strong>: 
-                          Id: user / Password: adminadmin
+                          You can <strong>use the credentials</strong>: Id: user
+                          / Password: adminadmin
                         </em>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -843,11 +885,9 @@ A ranking is also available based on the number of points earned. It shows the e
                 >
                   SEE LIVE
                 </UrlButton>
-                
               </div>
             </div>
           </ImageEvent>
-
 
           {/* Project: Opex App */}
           <ImageEvent
@@ -871,19 +911,33 @@ A ranking is also available based on the number of points earned. It shows the e
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Tablet App - Web App : Live Tracking of the production lines yields.
-                          SMS escalation alerts in case of machine breakdown
-                          Breakdown analysis and Overall Equipement Efficiency live reporting
+                        <strong>Description:</strong> Tablet App - Web App :
+                        Live Tracking of the production lines yields. SMS
+                        escalation alerts in case of machine breakdown Breakdown
+                        analysis and Overall Equipement Efficiency live
+                        reporting
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Operator declare a breakdown through the tablet </li>
-                          <li>SMS automatically sent to the technicians after 20 minutes of breakdown</li>
-                          <li>SMS Escalation after 40 minutes of breakdown to the maintenance manager</li>
                           <li>
-                            Managers are able to check Overall equipement Efficiency of the production through a web app
+                            Operator declare a breakdown through the tablet{" "}
                           </li>
-                          <li>BreakDown analysis on the Web app ( Pareto Diagram and OEE follow up )</li>
+                          <li>
+                            SMS automatically sent to the technicians after 20
+                            minutes of breakdown
+                          </li>
+                          <li>
+                            SMS Escalation after 40 minutes of breakdown to the
+                            maintenance manager
+                          </li>
+                          <li>
+                            Managers are able to check Overall equipement
+                            Efficiency of the production through a web app
+                          </li>
+                          <li>
+                            BreakDown analysis on the Web app ( Pareto Diagram
+                            and OEE follow up )
+                          </li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -950,7 +1004,128 @@ A ranking is also available based on the number of points earned. It shows the e
                   </Card>
                 </Accordion>
               </div>
+            </div>
+          </ImageEvent>
 
+          {/* Project: Ecommerce App */}
+          <ImageEvent
+            date="02/02/2021"
+            className="text-center"
+            text="E-commerce website - React- Redux Saga - Firebase - Stripe"
+            src={L_ECOM}
+            alt="Ecommerce App"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Ecommerce Web App :
+                        Ecommerce website with admin dashboard made with react-
+                        redux saga - redux persist - firebase - stripe
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>User can add to cart the products he like</li>
+                          <li>
+                            User can register using email or sign in with google
+                          </li>
+                          <li>
+                            Admin dashboard to add products- description -
+                            categories - price
+                          </li>
+                          <li>User can proceed with payment using stripe</li>
+                          <li>User can check his previous orders</li>
+                          <li>User can check his previous orders</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              REACT
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_NODE_JS}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Node.js
+                            </span>
+                          </li>
+
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_FIREBASE}
+                                alt="Django"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>
+
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_STRIPE}
+                                alt="Django"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Stripe
+                            </span>
+                          </li>
+
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="PostgreSQL"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Redux
+                            </span>
+                          </li>
+                        </ul>
+                        <hr />
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton href="https://ecommerce-7a260.firebaseapp.com/" target="_blank">
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/hbellamine/ecommerce"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
             </div>
           </ImageEvent>
         </Events>

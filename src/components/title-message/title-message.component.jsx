@@ -35,13 +35,13 @@ const TitleMessage = () => (
   <MyTitleMessage>
     <div className="titleMessage">
       <div className="heading">
-        {/* <div className="main text-center mb-3">
+        <div className="main text-center mb-3">
           Hi, I am
           <br />
           <span>
             <strong>Hamza Bellamine</strong>
           </span>
-        </div> */}
+        </div>
         <div className="sub">
           <Typewriter
             options={{
