@@ -31,7 +31,7 @@ const About = () => {
 
               className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Hamza Bellamine</strong>
-                <br />A passionate full stack developer and a team player.
+                <br />A passionate Mobile and Web developer and Industrial Engineer.
                 <br />
                 <br />
                 In 2007, I successfully completed my Technical Diploma with specialization in 'Electrical Engineering and Computer Science' and in 2010 i have got my Masters degree with specialization in 'Industrial Engineering'
